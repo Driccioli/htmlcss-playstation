@@ -1,0 +1,9 @@
+.nav-link::after{
+    content:" \02C5";
+    color: gray;
+}
+
+.search{
+    padding-inline: 20px;
+    font-size: 20px;
+}
