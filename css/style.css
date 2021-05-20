@@ -7,3 +7,26 @@
     padding-inline: 20px;
     font-size: 20px;
 }
+
+.header{
+    background-image: url(../img/jumbo-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-desc{
+    text-align: left;
+    width: 400px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.header-desc > img{
+    max-width: 300px;
+}
+
+.header-desc > button{
+    margin-top: 20px;
+}
