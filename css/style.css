@@ -13,6 +13,7 @@
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 60px;
 }
 
 .header-desc{
@@ -29,7 +30,11 @@
 
 .header-desc > button{
     margin-top: 20px;
+    background-color: rgb(255, 123, 0);
+    border-radius: 20px;
+    color: white;
 }
+
 
 .games-list{
     padding-top: 20px;
@@ -41,7 +46,51 @@
     border: 3px solid rgba(0,0,0,0);
 }
 
-#selected{
-    border: 2px solid blue;
+.game-container{
+    border: 2px solid rgba(0,0,0,0);
     border-radius: 10px;
+}
+
+#selected{
+    border-color:blue;
+}
+
+.ps5-container{
+    padding-top: 30px;
+}
+
+.ps5-intro{
+    text-align: center;
+}
+.motto{
+    text-transform: uppercase;
+    color:rgb(34, 115, 221);
+}
+.ps5-intro h5{
+    color: gray;
+}
+
+.ps5-text button{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.ps5-pic img{
+    width: 100%;
+}
+
+.ps5-item{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.ps5-item:first-child{
+    padding-bottom: 30px;
+    border-bottom: 2px solid blue;
+}
+
+.ps5-item img{
+    width: 100%;
+    display: block;
 }
