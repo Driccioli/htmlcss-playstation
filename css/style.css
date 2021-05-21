@@ -119,3 +119,29 @@
     width: 100%;
     border-radius: 20px;
 }
+
+.ps4-container{
+    text-align: center;
+    color: gray;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.ps4-container h1{
+    color: black;
+}
+
+.ps4-item{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.ps4-item img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ps4-item button{
+    margin-top: 20px;
+    border-radius: 14px;
+}
