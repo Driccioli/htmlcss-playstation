@@ -57,6 +57,7 @@
 
 .ps5-container{
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .ps5-intro{
@@ -81,7 +82,7 @@
 
 .ps5-item{
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     padding-bottom: 10px;
 }
 
@@ -91,6 +92,15 @@
 }
 
 .ps5-item img{
-    width: 100%;
+    width: 60%;
+    margin-inline: auto;
     display: block;
+}
+
+.it-takes-two-banner{
+    height: 600px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
