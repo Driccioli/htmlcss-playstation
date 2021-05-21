@@ -30,7 +30,9 @@
 
 .header-desc > button{
     margin-top: 20px;
-    background-color: rgb(255, 123, 0);
+    background-color: rgb(212, 103, 0);
+    border: none;
+    padding: 10px 15px;
     border-radius: 20px;
     color: white;
 }
@@ -103,4 +105,17 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position-x: center;
+}
+
+.new-releases{
+    background-color: rgb(37, 35, 35);
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    padding: 50px 20px 70px 20px;
+}
+
+.game-release > img{
+    width: 100%;
+    border-radius: 20px;
 }
