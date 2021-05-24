@@ -8,8 +8,11 @@
 }
 
 .nav-link::after{
-    content:" \02C5";
+    content:"\22C1";
+    margin-left: 5px;
     color: gray;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .search{
@@ -17,16 +20,24 @@
     font-size: 20px;
 }
 
+#my-ps{
+    color: black;
+}
+
+#login{
+    border-radius: 20px;
+}
+
 .header{
     background-image: url(../img/jumbo-bg.png);
     height: 500px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .header-desc{
     text-align: left;
-    width: 400px;
     padding-left: 30px;
     padding-bottom: 30px;
     color: white;
@@ -34,6 +45,22 @@
 
 .header-desc > img{
     max-width: 300px;
+}
+
+@media screen and (max-width:991px) {
+    .header-desc{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .header-desc > h1{
+        font-size: 50px;
+        line-height: 100px;
+    }
+
+    .header-desc > img{
+        max-width: 500px;
+    }
 }
 
 .header-desc > button{
@@ -72,12 +99,13 @@
 
 .ps5-intro{
     text-align: center;
+    padding-bottom: 20px;
 }
 .motto{
     text-transform: uppercase;
     color:rgb(34, 115, 221);
 }
-.ps5-intro h5{
+.ps5-container h5{
     color: gray;
 }
 
@@ -107,13 +135,29 @@
     display: block;
 }
 
+@media screen and (max-width:767px) {
+
+    .ps5-item:first-child{
+        padding-bottom: 0;
+    }
+    .ps5-item span{
+        display: none;
+    }
+}
+
 .it-takes-two-banner{
-    height: 600px;
+    height: 750px;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position: center;
 }
+
+
+.it-takes-two-desc > img{
+    max-width:300px;
+}
+
 
 .new-releases{
     background-color: rgb(37, 35, 35);
