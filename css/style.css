@@ -210,7 +210,7 @@
 .ps-plus-desc{
     margin-bottom: 30px;
     width: 50%;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .ps-plus-desc > img{
@@ -248,11 +248,20 @@
     text-align: center;
     line-height: 40px;
     padding-top: 40px;
+    padding-inline: 20px;
     padding-bottom: 40px;
+}
+
+.ps-store-container h1{
+    font-size: 40px;
 }
 
 .ps-store-container h5{
     color: gray;
+}
+
+.ps-store-item{
+    padding-top: 20px;
 }
 
 .ps-store-item > img{
@@ -262,6 +271,7 @@
 .ps-now-container{
     background-color: rgb(23, 23, 51);
     color: white;
+    padding-inline: 20px;
 }
 
 .ps-now-container button{
@@ -304,6 +314,10 @@
     #sie{
         padding-bottom: 20px;
         width: 170px;
+    }
+
+    .links{
+        padding-inline: 20px;
     }
 
     .ps-footer ul{
