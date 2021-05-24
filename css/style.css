@@ -30,7 +30,7 @@
 
 .header{
     background-image: url(../img/jumbo-bg.png);
-    height: 500px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +88,7 @@
     border-radius: 10px;
 }
 
-#selected{
+.game-container:hover{
     border-color:blue;
 }
 
@@ -125,12 +125,16 @@
 .ps5-item{
     text-align: center;
     font-size: 14px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgba(0,0,0,0);
 }
 
-.ps5-item:first-child{
-    padding-bottom: 30px;
-    border-bottom: 2px solid blue;
+.ps5-item:nth-child(3){
+    padding-bottom: 19px;
+}
+
+.ps5-item:hover{
+    border-color:blue;
 }
 
 .ps5-item img{
@@ -141,7 +145,7 @@
 
 @media screen and (max-width:767px) {
 
-    .ps5-item:first-child{
+    .ps5-item{
         padding-bottom: 0;
     }
     .ps5-item span{
