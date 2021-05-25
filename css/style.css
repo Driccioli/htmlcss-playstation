@@ -28,7 +28,7 @@
     border-radius: 20px;
 }
 
-.header{
+.banner{
     background-image: url(../img/jumbo-bg.png);
     height: 600px;
     background-position: center;
@@ -36,34 +36,34 @@
     background-size: cover;
 }
 
-.header-desc{
+.banner-desc{
     text-align: left;
     padding-left: 30px;
     padding-bottom: 30px;
     color: white;
 }
 
-.header-desc > img{
+.banner-desc > img{
     max-width: 300px;
 }
 
 @media screen and (max-width:991px) {
-    .header-desc{
+    .banner-desc{
         font-size: 16px;
         line-height: 30px;
     }
 
-    .header-desc > h1{
+    .banner-desc > h1{
         font-size: 50px;
         line-height: 100px;
     }
 
-    .header-desc > img{
+    .banner-desc > img{
         max-width: 500px;
     }
 }
 
-.header-desc > button{
+.banner-desc > button{
     margin-top: 20px;
     background-color: rgb(212, 103, 0);
     border: none;
